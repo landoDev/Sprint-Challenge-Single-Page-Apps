@@ -3,7 +3,7 @@ import React, {useState, useEffect} from "react";
 export default function CharacterCard({data}) {
   console.log({data})
   return(
-    <span>More Details</span>
+    <span>More Details(Coming Soon)</span>
     // <div className="character-card">
     //   <div className="character-status">
     //     <h3>Status: {data.data.status}</h3>

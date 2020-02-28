@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #e4a788;
 }
 
 main {
@@ -9,7 +10,7 @@ main {
   min-height: 80vh;
   max-width: 1024px;
   margin: 35px auto;
-  background: #fff;
+  background: #44281d;
   padding: 15px;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 }
@@ -33,6 +34,12 @@ main {
   border-radius: 100%;
   margin: 0 auto;
 } */
+
+h1, h2, h3, h4, h5, h6, p {
+  color: #e89ac7;
+  text-decoration: none;
+  text-shadow: 0 0 3px #44281d, 0 0 6px #f0e14a;
+}
 
 header h1 {
   text-align: center;

@@ -10,8 +10,8 @@ const NavBar = styled.nav`
   justify-content: space-evenly;
   align-items: center;
   background-color: #44281d;
-  border-top: 2px solid #e4a788;
-  border-bottom: 2px solid #e4a788;
+  border-top: 3px solid #e4a788;
+  border-bottom: 3px solid #e4a788;
   width: 100%;
   a{
     color: #e89ac7;
