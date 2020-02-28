@@ -11,6 +11,7 @@ export default function CharacterList() {
         .get('https://cors-anywhere.herokuapp.com/https://rickandmortyapi.com/api/character/')
         .then(response => {
             console.log(response.data.results)
+            setData(response.data.results)
         })
         .catch(error => {
           console.error('Server Error', error);
@@ -19,7 +20,15 @@ export default function CharacterList() {
 
   return (
     <section className="character-list">
-      <h2>TODO: `array.map()` over your state here!</h2>
+      <h2>Rick and lesser beings</h2>
+      {data.map(data => {
+        return(
+          <div className='character-list'>
+            <h3>Name: {data.name}</h3>
+            <img src={data.image}></img>
+          </div>
+        )
+      })}
     </section>
   );
 }
